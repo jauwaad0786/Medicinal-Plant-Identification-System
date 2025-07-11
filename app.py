@@ -6,8 +6,9 @@ import json
 st.set_page_config(page_title="Medicinal Plant Identifier", page_icon="🌿", layout="centered")
 
 # --- Load model and plant info ---
-MODEL_PATH = r'C:\Users\AHMAD ALI\Desktop\medicinal-plant-identifier\models\medicinal_plant_model.h5'
-INFO_PATH = r'C:\Users\AHMAD ALI\Desktop\medicinal-plant-identifier\plant_info.json'
+MODEL_PATH = r'C:\Users\shaik\Medicinal-Plant-Identification-System\models\medicinal_plant_model.h5'
+
+INFO_PATH = r'C:\Users\shaik\Medicinal-Plant-Identification-System\plant_info.json'
 
 # Load model
 @st.cache_resource

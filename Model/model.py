@@ -6,14 +6,14 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Dropout
 from tensorflow.keras.models import Model
 from tensorflow.keras.callbacks import EarlyStopping
 # Set dataset directory (update this path as needed)
-data_dir = r'C:\Users\AHMAD ALI\Desktop\medicinal-plant-identifier\data\Medicinal plant dataset'
+data_dir = r'C:\Users\shaik\Medicinal-Plant-Identification-System\Medicinal plant dataset'
 # Image parameters
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 20
 # Data augmentation for training
 train_datagen = ImageDataGenerator(
-    rescale=1./255,
+    rescale=1./255,    
     validation_split=0.3,
     rotation_range=40,
     width_shift_range=0.2,
